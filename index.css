@@ -85,6 +85,11 @@
     box-shadow: 0 4px 10px rgba(0,0,0,0.5);
 }
 
+.item:hover{
+    transition: 0.5s;
+    transform:translateY(-5px);
+}
+
 .item img{
     border-radius: 10px;
     
@@ -115,4 +120,5 @@
     font-size: 15.1px;
     font-weight: 400;
 }
+
 
